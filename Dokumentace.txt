@@ -1,0 +1,25 @@
+Projekt pro „PROGRAMOVÁNÍ (INFO ETE15E)“
+
+Bohdan Afanasiev, xafab002@studenti.czu.cz
+
+Název: Program pro jednoduchou praci z .csv soubory
+
+Popis:
+Algoritmus umožňuje načíst text z filu. Umožňuje cist, ukladat a delat zaznamy do .csv souboru.
+
+Komunikace s uživatelem bude formou menu.
+
+Návrh hlavních proměnných a datových struktur:
+filePath – proměnná typu String obsahující cestu k souboru
+data – proměnná typu String obsahující pridavane data ve funkci SaveData
+name – proměnná typu String obsahující Jmeno ve funkci AddRecord
+age – proměnná typu String obsahující Vek ve funkci AddRecord
+city – proměnná typu String obsahující Mesto ve funkci AddRecord
+
+Koncepční popis programu
+1. Program zobrazí menu a čeká na vstup od uživatele
+2. Program načte soubor z disku nebo ulozi data do souboru nebo pride konkretni zaznam do souboru podle volby
+3. Dle volby v menu vypíše:
+a. Data ktera uz v souboru jsou
+b. Zacne sekvenci pridavani libovolnych dat do souboru
+c. Zacne sekvenci pridavani konretniho zaznamu do souboru
